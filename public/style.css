@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+button, input{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1.1rem;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding:0.5rem;
+    color: white;
+    background-color: rgb(144, 144, 144);
+}
+
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+    padding-bottom: 3.8rem;
+}
+
+form{
+    margin-top: 1rem;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    display: flex;
+    height: 3.75rem;
+    padding:0.5rem 0.45rem;
+    background-color:rgb(144, 144, 144);
+    backdrop-filter: blur(10px);
+    gap: 0.25rem;
+}
+
+input{
+    flex:1;
+    border-radius: 0.5rem;
+}
+
+input:focus{
+    outline:2px solid gray
+}
+
+button{
+    flex-basis: 100px;
+    border-radius: 0.5rem;
+    background-color: rgb(52, 51, 51);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(28, 28, 28);
+    outline: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding:0.25rem 0.25rem;
+    display: flex;
+    align-items: center;
+    gap:0.25rem;
+}
+
+li:nth-child(odd) { 
+    background: #efefef; 
+}
+
+.user{
+    background-color: rgb(28, 28, 28);
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1.1rem;
+    color:#eee;
+}
+
+.activity{
+    padding: 0.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
